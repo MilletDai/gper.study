@@ -1,6 +1,28 @@
 # 设计模式
 ## 分类
-  | 类型 | 模式 |
-  | 创建型 | 工厂方法模式(`FactoryMthod`) 、|
-  | 结构性 | 代理模式(`Proxy`) |
-  | 行为型 | 策略模式(`Strategy`) |
+  * 创建型
+    * 工厂方法模式(`FactoryMthod`)
+    * 抽象工厂模式(`AbstractFactory`)
+    * 单利模式(`Singleton`)
+    * 建造者模式(`Builder`)
+    * 原型模式(`Prototype`)
+  * 结构性
+    * 代理模式(`Proxy`) 
+    * 门面模式(`Facade`)
+    * 适配器模式(`Adapter`)
+    * 装饰器模式(`Decorator`)
+    * 组合模式(`Composite`)
+    * 享元模式(`Flyweight`)
+    * 桥接模式(`Bridge`)
+  * 行为型
+    * 策略模式(`Strategy`)
+    * 观察者模式(`Observer`)
+    * 模板方法模式(`TemplateMethod`)
+    * 责任链模式(`Chain of Responsibility`)
+    * 命令模式(`Commond`)
+    * 解释器模式(`Interpreter`)
+    * 迭代器模式(`Iterator`)
+    * 调节者模式(`Mediator`)
+    * 备忘录模式(`Memento`)
+    * 访问者模式(`Visitor`)
+    * 状态模式(`State`)
