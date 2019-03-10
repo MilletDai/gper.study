@@ -1,7 +1,9 @@
-package millet.dai.study.pattern.factoryMethod;
+package millet.dai.study.pattern;
 
-import millet.dai.study.pattern.Human;
-import millet.dai.study.pattern.HumanAct;
+import millet.dai.study.pattern.factoryMethod.BlackHumanFactory;
+import millet.dai.study.pattern.factoryMethod.HumanFactory;
+import millet.dai.study.pattern.factoryMethod.WhiteHumanFactory;
+import millet.dai.study.pattern.factoryMethod.YellowHumanFactory;
 
 /**
  * 工厂方法模式<br/>

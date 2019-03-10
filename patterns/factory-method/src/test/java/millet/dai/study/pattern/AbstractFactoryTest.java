@@ -1,7 +1,10 @@
-package millet.dai.study.pattern.abstractFactory;
+package millet.dai.study.pattern;
 
 import millet.dai.study.pattern.Human;
 import millet.dai.study.pattern.HumanAct;
+import millet.dai.study.pattern.abstractFactory.FemaleHumanFactory;
+import millet.dai.study.pattern.abstractFactory.HumanFactory;
+import millet.dai.study.pattern.abstractFactory.MaleHumanFactory;
 
 /**
  * 抽象工厂方法<<br/>

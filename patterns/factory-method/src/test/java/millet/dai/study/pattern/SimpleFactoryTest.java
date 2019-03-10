@@ -1,7 +1,6 @@
-package millet.dai.study.pattern.simpleFactory;
+package millet.dai.study.pattern;
 
-import millet.dai.study.pattern.Human;
-import millet.dai.study.pattern.HumanAct;
+import millet.dai.study.pattern.simpleFactory.SimpleFactory;
 
 /**
  * 简单工厂模式<br/>
