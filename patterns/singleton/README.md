@@ -12,5 +12,6 @@
   * 反射。在构造函数内做初始化判断。
   * 序列化、反序列化。使用`readResolve()`避免生成多个实例
 # 梳理内部类的执行逻辑，并画出时序图
-![innerClass]()
+![innerClass](https://github.com/MilletDai/gper.study/blob/master/patterns/singleton/src/main/resources/uml/SingletonInnerClass.png)
+
 
