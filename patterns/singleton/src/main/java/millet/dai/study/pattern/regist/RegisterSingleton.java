@@ -7,6 +7,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * 注册式：初始化后缓存，枚举也是注册式的一种
  * <br/>
  * spring中 applicationContext就是这种模式
+ * <br/>
+ * 这个类就成了工厂方法模式
  */
 public class RegisterSingleton {
     private static final Map<String, Object> ioc = new ConcurrentHashMap<>();
