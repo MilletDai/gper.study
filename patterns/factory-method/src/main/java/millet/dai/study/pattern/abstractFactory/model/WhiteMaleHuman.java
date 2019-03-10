@@ -2,7 +2,7 @@ package millet.dai.study.pattern.abstractFactory.model;
 
 import millet.dai.study.pattern.Human;
 
-public class WhiteMaleHuman extends AbstractMaleHuman{
+public class WhiteMaleHuman extends AbstractMaleHuman {
     public void talk() {
         System.out.println("白色人种说啥的都有");
     }

@@ -5,7 +5,7 @@ import millet.dai.study.pattern.abstractFactory.model.BlackMaleHuman;
 import millet.dai.study.pattern.abstractFactory.model.WhiteMaleHuman;
 import millet.dai.study.pattern.abstractFactory.model.YellowMaleHuman;
 
-public class MaleHumanFactory implements HumanFactory{
+public class MaleHumanFactory implements HumanFactory {
 
     public Human blackHuman() {
         return new BlackMaleHuman();

@@ -1,8 +1,8 @@
 package millet.dai.study.pattern;
 
-public class HumanAct {
+class HumanAct {
 
-    public static void action(Human human){
+    static void action(Human human) {
         human.talk();
         human.work();
         human.temperament();

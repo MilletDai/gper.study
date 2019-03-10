@@ -1,6 +1,6 @@
 package millet.dai.study.pattern.abstractFactory.model;
 
-public class WhiteFemaleHuman extends AbstractFemaleHuman{
+public class WhiteFemaleHuman extends AbstractFemaleHuman {
     public void talk() {
         System.out.println("白色人种说啥的都有");
     }
