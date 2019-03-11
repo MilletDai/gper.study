@@ -15,14 +15,14 @@ public class PrototypeTest {
         man.setBody(body);
 
         Man cl = (Man) man.clone();
-        sout(man, cl);
+        print(man, cl);
 
         man.setDeep(true);
         cl = (Man) man.clone();
-        sout(man, cl);
+        print(man, cl);
     }
 
-    private static void sout(Man man, Man cl) {
+    private static void print(Man man, Man cl) {
         System.out.println(man == cl);
         System.out.println(man.hashCode() + ":" + man);
         System.out.println(cl.hashCode() + ":" + cl);
