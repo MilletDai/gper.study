@@ -16,6 +16,8 @@
     <modules>
         <module>factory-method</module>
         <module>singleton</module>
+        <module>prototype</module>
+        <module>proxy</module>
     </modules>
 
 
