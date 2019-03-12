@@ -9,9 +9,10 @@ import java.lang.reflect.Proxy;
 @SuppressWarnings("ALL")
 public class JdkAgentProxy<T extends Human> implements InvocationHandler {
     private Human human;
-    public <T extends Human> T getInstance(T human){
+
+    public <T extends Human> T getInstance(T human) {
         this.human = human;
-        return (T)Proxy.newProxyInstance(human.getClass().getClassLoader(), human.getClass().getInterfaces(), this);
+        return (T) Proxy.newProxyInstance(human.getClass().getClassLoader(), human.getClass().getInterfaces(), this);
     }
 
     @Override

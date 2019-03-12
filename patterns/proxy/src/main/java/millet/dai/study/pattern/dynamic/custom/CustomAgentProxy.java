@@ -10,7 +10,8 @@ import java.lang.reflect.Method;
 @SuppressWarnings("ALL")
 public class CustomAgentProxy<T extends Human> implements MDInvocationHandler {
     private Human human;
-    public <T extends Human> T getInstance(T human){
+
+    public <T extends Human> T getInstance(T human) {
         this.human = human;
         return (T) MDProxy.newProxyInstance(new MDClassLoader(), human.getClass().getInterfaces(), this);
     }

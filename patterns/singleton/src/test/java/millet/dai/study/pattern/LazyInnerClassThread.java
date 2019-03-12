@@ -16,6 +16,6 @@ public class LazyInnerClassThread implements Runnable {
             }).start();
         } while (instanceMap.size() <= 1);
         System.out.println("LazyInnerClassThread has problems");
-        instanceMap.forEach((k,v)-> System.out.println(v));
+        instanceMap.forEach((k, v) -> System.out.println(v));
     }
 }

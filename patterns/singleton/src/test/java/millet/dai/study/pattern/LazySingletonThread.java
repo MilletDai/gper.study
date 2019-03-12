@@ -16,6 +16,6 @@ public class LazySingletonThread implements Runnable {
             }).start();
         } while (instanceMap.size() <= 1);
         System.out.println("LazySingletonThread has problems");
-        instanceMap.forEach((k,v)-> System.out.println(v));
+        instanceMap.forEach((k, v) -> System.out.println(v));
     }
 }

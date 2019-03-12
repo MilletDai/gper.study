@@ -8,7 +8,7 @@ import millet.dai.study.pattern.factoryMethod.YellowHumanFactory;
 /**
  * 工厂方法模式<br/>
  * 以实体类型为维度创建相应工厂类
- * */
+ */
 public class FactoryMethodTest {
     public static void main(String[] args) {
         HumanFactory blackFactory = new BlackHumanFactory();

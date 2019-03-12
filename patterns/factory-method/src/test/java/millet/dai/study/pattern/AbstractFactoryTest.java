@@ -9,7 +9,7 @@ import millet.dai.study.pattern.abstractFactory.MaleHumanFactory;
 /**
  * 抽象工厂方法<<br/>
  * 以产品族为维度创建对应的工厂类<br/>
- * */
+ */
 public class AbstractFactoryTest {
     public static void main(String[] args) {
         HumanFactory maleFactory = new MaleHumanFactory();

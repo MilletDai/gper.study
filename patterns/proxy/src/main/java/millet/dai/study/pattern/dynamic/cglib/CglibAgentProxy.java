@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 @SuppressWarnings("ALL")
 public class CglibAgentProxy<T extends Human> implements MethodInterceptor {
 
-    public <T extends Human> T getInstance(T clazz){
+    public <T extends Human> T getInstance(T clazz) {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(clazz.getClass());
         enhancer.setCallback(this);

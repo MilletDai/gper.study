@@ -15,6 +15,6 @@ public class HungrySingletonTest {
                 instanceMap.put(instance.hashCode(), " <-> " + instance.toString());
             }).start();
         } while (instanceMap.size() <= 1);
-        instanceMap.forEach((k,v)-> System.out.println(v));
+        instanceMap.forEach((k, v) -> System.out.println(v));
     }
 }
