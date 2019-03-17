@@ -20,6 +20,8 @@
         <module>proxy</module>
         <module>delegate</module>
         <module>strategy</module>
+        <module>template</module>
+        <module>adapter</module>
     </modules>
 
 
