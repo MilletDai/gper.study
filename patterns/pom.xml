@@ -24,6 +24,7 @@
         <module>adapter</module>
         <module>decorator</module>
         <module>observer</module>
+        <module>sum-up</module>
     </modules>
 
 

@@ -1,6 +1,4 @@
-package millet.dai.study.adapter.v1;
-
-import millet.dai.study.adapter.UserService;
+package millet.dai.study.pattern;
 
 public class UserServiceImpl implements UserService {
 
